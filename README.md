@@ -3,8 +3,8 @@
  ## Requirements  
   
  The application requires  
- * Python 3.7.2 or newer  
- * Python add-on modules as in [/pollsapi1/requirements.txt](requirements.txt)
+ * Django 2.0.3 or newer  
+ * Python add-on modules as in [/requirements.txt](requirements.txt)
  * Vue cli 4
   
   
@@ -17,9 +17,9 @@ git clone https://github.com/PrathwiEk/poll.git
 ```   
     
 ### Step 2     
-Go to `django-poll` directory:    
+Go to `poll` directory:    
 ```
-cd django-poll
+cd poll
 ```
 
 ### Step 3
@@ -51,17 +51,16 @@ Migrate your database:
 ```
 (venv) python manage.py migrate
 ```
-Make sure you have `db.sqlite3` file in `django-poll`  
+Make sure you have `db.sqlite3` file in `poll`  
   
  ## Running  
   
 ### Step 1    
-Go to `django-poll` directory    
+Go to `poll` directory    
 
 ### Step 2   
 Run following command on the Terminal    
  ```
 (venv) python manage.py runserver
  ``` 
-# pollapp
-# pollapp
+
