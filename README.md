@@ -1,4 +1,4 @@
-## Django Polls Application  
+## Django pollapps Application  
 
  ## Requirements  
   
@@ -17,9 +17,9 @@ git clone https://github.com/shahirdevp/pollapp.git
 ```   
     
 ### Step 2     
-Go to `poll` directory:    
+Go to `pollapp` directory:    
 ```
-cd poll
+cd pollapp
 ```
 
 ### Step 3
@@ -51,12 +51,12 @@ Migrate your database:
 ```
 (venv) python manage.py migrate
 ```
-Make sure you have `db.sqlite3` file in `poll`  
+Make sure you have `db.sqlite3` file in `pollapp`  
   
  ## Running  
   
 ### Step 1    
-Go to `poll` directory    
+Go to `pollapp` directory    
 
 ### Step 2   
 Run following command on the Terminal    
@@ -74,3 +74,20 @@ swagger-docs/
 ```
 
 
+ ## Vue js Installation
+
+### Step 1     
+Go to `pollapp/polls/` directory:    
+```
+cd polls
+```
+
+### Step 1     
+Go to `pollapp/polls/` directory:    
+```
+cd polls
+```
+### step 2
+```
+npm run serve
+```
