@@ -4,7 +4,7 @@
   
  The application requires  
  * Django 2.0.3 or newer  
- * Python add-on modules as in [/requirements.txt](requirements.txt)
+ * Python add-on modules as in [https://github.com/shahirdevp/pollapp/blob/master/pollsapi/requirements.txt](requirements.txt)
  * Vue cli 4
   
   
@@ -13,7 +13,7 @@
 ### Step 1
 Open the Terminal and type the following command:    
 ```
-git clone https://github.com/PrathwiEk/poll.git
+git clone https://github.com/shahirdevp/pollapp.git
 ```   
     
 ### Step 2     
@@ -63,4 +63,14 @@ Run following command on the Terminal
  ```
 (venv) python manage.py runserver
  ``` 
+## Api Documentation
+
+```
+docs/
+```
+OR
+```
+swagger-docs/
+```
+
 
